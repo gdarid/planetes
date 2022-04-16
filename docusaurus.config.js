@@ -33,6 +33,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
+          breadcrumbs: false,
           // Please change this to your repo.
           // editUrl: 'https://github.com/gdarid/planetes/blob/main/',
         },

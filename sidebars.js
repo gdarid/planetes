@@ -36,7 +36,11 @@ const sidebars = {
       label: "Glossaire",
       collapsed: true,
       items: [
-        "glossaire/gazeuse",
+        {
+          type: 'doc',
+          id: 'glossaire/gazeuse',
+          label: 'Planète géante gazeuse',
+        },        
         "glossaire/glaces",
         "glossaire/naine",
         "glossaire/tellurique",
