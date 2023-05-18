@@ -8,15 +8,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Planètes',
   tagline: `Quelques données de base ...`,
-  url: 'https://planetes.netlify.app/',
-  baseUrl: '/',
   titleDelimiter: '·',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+
+  // Set the production url of your site here
+  url: 'https://planetes.netlify.app/',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gdarid', // Usually your GitHub org/user name.
   projectName: 'planetes', // Usually your repo name.
 
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
   i18n: {    
     defaultLocale: 'fr',    
     locales: ['fr'],    
@@ -26,21 +37,23 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
-          breadcrumbs: false,
+          breadcrumbs: false,		  
           // Please change this to your repo.
-          // editUrl: 'https://github.com/gdarid/planetes/blob/main/',
+          // Remove this to remove the "edit this page" links.
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
-          // editUrl: 'https://github.com/gdarid/planetes/blob/main/',
+          // Remove this to remove the "edit this page" links.
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,22 +65,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        // A commenter ci-dessous pour désactiver la page d'accueil
         title: 'Accueil',
-        // Commentaire ci-dessous pour désactiver le logo
+        // désactivation du logo
         /* logo: {
           alt: 'Accueil Logo',
           src: 'img/logo.svg',
-        }, */
+        }, */		
         items: [
           {
-            type: 'doc',
-            docId: 'intro_gen',
+            type: 'docSidebar',
+            sidebarId: 'docs',
             position: 'left',
             label: `Planètes`,
           },
-
+		  // The blog is disabled
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/gdarid/planetes',
@@ -77,8 +91,8 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',        
-        copyright: `Licence MIT`,
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} Construit avec Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

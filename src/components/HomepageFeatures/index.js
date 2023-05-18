@@ -1,33 +1,31 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import styles from './styles.module.css';
 
 const FeatureList = [
   {
     title: 'Basé sur Docusaurus',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        
       </>
     ),
   },
   {
-    title: 'A partir de fichiers en markdown',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'A partir de fichiers markdown',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        
       </>
     ),
-  }
+  },
 ];
 
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
