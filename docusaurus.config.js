@@ -28,11 +28,11 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {    
-    defaultLocale: 'fr',    
-    locales: ['fr'],    
-    localeConfigs: {      
-      fr: { label: 'Français', direction: 'ltr', }, },  
+  i18n: {
+    defaultLocale: 'fr',
+    locales: ['fr'],
+    localeConfigs: {
+      fr: { label: 'Français', direction: 'ltr', }, },
     },
 
   presets: [
@@ -44,7 +44,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
-          breadcrumbs: false,		  
+          breadcrumbs: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -73,7 +73,7 @@ const config = {
         /* logo: {
           alt: 'Accueil Logo',
           src: 'img/logo.svg',
-        }, */		
+        }, */
         items: [
           {
             type: 'docSidebar',
@@ -81,13 +81,14 @@ const config = {
             position: 'left',
             label: `Planètes`,
           },
-		  // The blog is disabled
+		      // The blog is disabled
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
+          // Repo disabled
+          /* {
             href: 'https://github.com/gdarid/planetes',
             label: 'GitHub',
             position: 'right',
-          },
+          }, */
         ],
       },
       footer: {
