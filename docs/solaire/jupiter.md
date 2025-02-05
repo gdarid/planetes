@@ -9,9 +9,10 @@ tags:
 <!-- Imports éventuels pour composants à placer juste en dessous -->
 import { PlotPie } from "../../src/components/Plot";
 
-Jupiter est la cinquième planète du Système solaire par ordre d'éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une [planète géante gazeuse](../glossaire/gazeuse). Elle est même plus volumineuse que toutes les autres planètes réunies avec son rayon moyen de 69 911 km, qui vaut environ onze fois celui de la Terre, et sa masse qui est 318 fois plus grande. 
+Jupiter est la cinquième planète du Système solaire par ordre d'éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une [planète géante gazeuse](../glossaire/gazeuse). Elle est même plus volumineuse que toutes les autres planètes réunies avec son rayon moyen de 69 911 km, qui vaut environ onze fois celui de la Terre, et sa masse qui est 318 fois plus grande.
 
-![](../../files/Jupiter_Juno.jpg)  
+![Photographie de Jupiter](../../files/Jupiter_Juno.jpg)
+
 Photographie de la planète Jupiter, prise par Juno
 
 ## Origine du nom
@@ -22,7 +23,7 @@ Le symbole astronomique de la planète est « ♃ », qui serait une représenta
 
 ## L'atmosphère
 
-L’atmosphère de Jupiter est la plus importante des atmosphères des planètes du système solaire. Elle est composée principalement de d'hydrogène et d'hélium. Les autres composants chimiques sont présents seulement en petite quantité, dont le méthane, l'ammoniac, le sulfure d'hydrogène et l'eau. Ce dernier composant n'a pas été observé directement mais il se trouverait dans les profondeurs de l'atmosphère.  
+L'atmosphère de Jupiter est la plus importante des atmosphères des planètes du système solaire. Elle est composée principalement de d'hydrogène et d'hélium. Les autres composants chimiques sont présents seulement en petite quantité, dont le méthane, l'ammoniac, le sulfure d'hydrogène et l'eau. Ce dernier composant n'a pas été observé directement mais il se trouverait dans les profondeurs de l'atmosphère.
 
 L'atmosphère de Jupiter se caractérise par l'absence de limite inférieure précise et se mélange graduellement aux fluides intérieurs de la planète.
 
@@ -45,6 +46,6 @@ L'atmosphère de Jupiter se caractérise par l'absence de limite inférieure pr�
 ## Pour aller plus loin
 
 :::tip Wikipedia
-[Jupiter](https://fr.wikipedia.org/wiki/Jupiter_(planète))  
+[Jupiter](https://fr.wikipedia.org/wiki/Jupiter_(planète))
 :::
 

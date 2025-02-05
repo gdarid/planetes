@@ -13,7 +13,8 @@ La Terre est la troisième planète par ordre d'éloignement au Soleil et la cin
 
 D'après la datation radiométrique, la Terre s'est formée il y a 4,54 milliards d'années. Elle possède un unique satellite naturel, la Lune, qui s'est formée peu après.
 
-![](../../files/Earth_from_Apollo.jpg)
+![Photographie de la Terre](../../files/Earth_from_Apollo.jpg)
+
 Photographie prise par l'équipage d'Apollo 17 en 1972
 
 ## Origine du nom

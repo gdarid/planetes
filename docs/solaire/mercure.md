@@ -12,17 +12,18 @@ Son éloignement au Soleil est compris entre 0,31 et 0,47 unité astronomique (s
 
 Mercure est une [planète tellurique](../glossaire/tellurique), comme le sont également Vénus, la Terre et Mars. Elle est près de trois fois plus petite et presque vingt fois moins massive que la Terre mais presque aussi dense qu'elle. Sa densité remarquable est due à l'importance de son noyau métallique, qui représenterait 85 % de son rayon, contre environ 55 % pour la Terre.
 
-![](../../files/Mercury.jpg)  
+![Photographie de Mercure](../../files/Mercury.jpg)
+
 Photographie de Mercure par la sonde Messenger en 2008
 
 ## Origine du nom
 
-La planète Mercure doit son nom au messager des dieux dans la mythologie romaine, Mercure. 
+La planète Mercure doit son nom au messager des dieux dans la mythologie romaine, Mercure.
 
-La planète est nommée ainsi par les Romains à cause de la vitesse avec laquelle elle se déplace dans le ciel. Le symbole astronomique de Mercure est un cercle posé sur une croix et portant un demi-cercle en forme de cornes (Unicode : ☿). Il s'agit d'une représentation du caducée du dieu Hermès, équivalent de Mercure dans la mythologie grecque. 
+La planète est nommée ainsi par les Romains à cause de la vitesse avec laquelle elle se déplace dans le ciel. Le symbole astronomique de Mercure est un cercle posé sur une croix et portant un demi-cercle en forme de cornes (Unicode : ☿). Il s'agit d'une représentation du caducée du dieu Hermès, équivalent de Mercure dans la mythologie grecque.
 
 ## Pour aller plus loin
 
 :::tip Wikipedia
-[Mercure](https://fr.wikipedia.org/wiki/Mercure_(planète))  
+[Mercure](https://fr.wikipedia.org/wiki/Mercure_(planète))
 :::
